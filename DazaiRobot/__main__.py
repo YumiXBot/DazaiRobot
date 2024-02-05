@@ -76,7 +76,7 @@ PM_START_TEX = """
 
 
 PM_START_TEXT = """
-*ʜɪɪ* {} [!](https://graph.org/file/b88b7412495fa99710389.jpg)
+*ʜɪɪ* {message.from_user.mention} [!](https://graph.org/file/b88b7412495fa99710389.jpg)
 ✦⋆⋇──────────────────⋇⋆✦
 ɪ ᴀᴍ ᴀɴ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴡɪᴛʜ ꜱᴏᴍᴇ ꜰᴜɴ ᴇxᴛʀᴀꜱ ;)
 
