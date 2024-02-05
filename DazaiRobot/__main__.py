@@ -76,31 +76,34 @@ PM_START_TEX = """
 
 
 PM_START_TEXT = """
-*ʜᴇʏ* {}! *ᴛʜɪs ɪs* ᴅᴀ𝓩ᴀɪ 💕
-✦⋆⋇────────────────⋇⋆✦
-⦿ *ɪ'ᴍ ᴀ ᴩᴏᴡᴇʀғᴜʟ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴩ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ʙᴀsᴇᴅ ᴏɴ ʙᴜɴɢᴏ sᴛʀᴀʏ ᴅᴏɢs ᴀɴɪᴍᴇ*.
-✦⋆⋇────────────────⋇⋆✦
-*ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʜᴇʟᴩ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ᴋɴᴏᴡ ᴍᴏʀᴇ.*
+*ʜɪɪ* {} [!](https://graph.org/file/b88b7412495fa99710389.jpg)
+✦⋆⋇──────────────────⋇⋆✦
+ɪ ᴀᴍ ᴀɴ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴡɪᴛʜ ꜱᴏᴍᴇ ꜰᴜɴ ᴇxᴛʀᴀꜱ ;)
+
+ᴅᴏ ɴᴏᴛᴇ ɪ ɴᴇᴇᴅ ᴛᴏ ʙᴇ ᴘʀᴏᴍᴏᴛᴇᴅ ᴡɪᴛʜ ᴘʀᴏᴘᴇʀ ᴀᴅᴍɪɴ ᴘᴇʀᴍɪꜱꜱɪᴏɴꜱ ᴛᴏ ꜰᴜɴᴄᴛɪᴏɴ ᴘʀᴏᴘᴇʀʟʏ. 
+ᴇʟꜱᴇ ɪ ᴡᴏɴ'ᴛ ʙᴇ ᴀʙʟᴇ ᴛᴏ ꜰᴜɴᴄᴛɪᴏɴ ᴀꜱ ꜱᴀɪᴅ.
+✦⋆⋇──────────────────⋇⋆✦
+ᴄʟɪᴄᴋ ᴏɴ /help ᴛᴏ ʟᴇᴀʀɴ ᴍᴏʀᴇ!
 """
 
 buttons = [
         [
         InlineKeyboardButton(
-            text="⚓ sᴜᴍᴍᴏɴ ᴍᴇ ⚓",
+            text="⚓ Sᴜᴍᴍᴏɴ Mᴇ ⚓",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         ),
     ],
     [
-        InlineKeyboardButton(text="ᴅᴇᴠᴇʟᴏᴩᴇʀ 🫧", url=f"tg://user?id={OWNER_ID}"),
-        InlineKeyboardButton(text="sᴜᴩᴩᴏʀᴛ ♻️", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="🫧 Dᴇᴠᴇʟᴏᴩᴇʀ", url=f"tg://user?id={OWNER_ID}"),
+        InlineKeyboardButton(text="Sᴜᴩᴩᴏʀᴛ ♻️", url=f"https://t.me/{SUPPORT_CHAT}"),
     ],
     [
-        InlineKeyboardButton(text="🍁 ʜᴇʟᴩ & ᴄᴏᴍᴍᴀɴᴅs 🍁", callback_data="help_back"),
+        InlineKeyboardButton(text="🍁 Hᴇʟᴩ & Cᴏᴍᴍᴀɴᴅs 🍁", callback_data="help_back"),
     ],
 ]
 
 HELP_STRINGS = f"""
-     [{BOT_NAME}](https://telegra.ph/file/14191d1c1439b3b04583b.jpg)
+     [{BOT_NAME}](https://graph.org/file/b88b7412495fa99710389.jpg)
 ✦━━━━━━━━━━━━━━━━━━━━✦
 ➼ *ᴄʟɪᴄᴋ ᴏɴ ᴀ sᴘᴇᴄɪғɪᴄ ᴍᴏᴅᴜʟᴇ ᴛᴏ ɢᴇᴛ ɪᴛ's ɢᴜɪᴅᴇʟɪɴᴇs*.
 ✦━━━━━━━━━━━━━━━━━━━━✦
