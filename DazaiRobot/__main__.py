@@ -206,7 +206,7 @@ def start(update: Update, context: CallbackContext):
             
             usr = update.effective_user
             lol = update.effective_message.reply_text(
-                PM_START_TEX.format(user.first_name), parse_mode=ParseMode.MARKDOWN
+                PM_START_TEX.format(usr.first_name), parse_mode=ParseMode.MARKDOWN
             )
             
             time.sleep(0.1)
