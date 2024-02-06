@@ -76,7 +76,7 @@ PM_START_TEX = """
 
 
 PM_START_TEXT = """
-*ʜɪɪ* {message.from_user.mention} [!](https://graph.org/file/b88b7412495fa99710389.jpg)
+*ʜɪɪ* {} [!](https://graph.org/file/b88b7412495fa99710389.jpg)
 ✦⋆⋇──────────────────⋇⋆✦
 ɪ ᴀᴍ ᴀɴ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴡɪᴛʜ ꜱᴏᴍᴇ ꜰᴜɴ ᴇxᴛʀᴀꜱ ;)
 
@@ -206,7 +206,7 @@ def start(update: Update, context: CallbackContext):
             
             usr = update.effective_user
             lol = update.effective_message.reply_text(
-                PM_START_TEX.format(message.from_user.mention), parse_mode=ParseMode.MARKDOWN
+                PM_START_TEX.format(user.first_name), parse_mode=ParseMode.MARKDOWN
             )
             
             time.sleep(0.1)
