@@ -76,29 +76,29 @@ PM_START_TEX = """
 
 
 PM_START_TEXT = """
-*ʜɪɪ* {} [!](https://graph.org/file/b88b7412495fa99710389.jpg)
-✦⋆⋇──────────────────⋇⋆✦
-ɪ ᴀᴍ ᴀɴ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴡɪᴛʜ ꜱᴏᴍᴇ ꜰᴜɴ ᴇxᴛʀᴀꜱ ;)
+*⍣  Ꭷ𝔦𝔦𝔦!* {} ι'ʍ  [Hιмᴧωᴧꝛι ♡](https://i.ibb.co/NSfdfhF/Picsart-23-03-23-17-47-19-046.webp)
 
-ᴅᴏ ɴᴏᴛᴇ ɪ ɴᴇᴇᴅ ᴛᴏ ʙᴇ ᴘʀᴏᴍᴏᴛᴇᴅ ᴡɪᴛʜ ᴘʀᴏᴘᴇʀ ᴀᴅᴍɪɴ ᴘᴇʀᴍɪꜱꜱɪᴏɴꜱ ᴛᴏ ꜰᴜɴᴄᴛɪᴏɴ ᴘʀᴏᴘᴇʀʟʏ. 
-ᴇʟꜱᴇ ɪ ᴡᴏɴ'ᴛ ʙᴇ ᴀʙʟᴇ ᴛᴏ ꜰᴜɴᴄᴛɪᴏɴ ᴀꜱ ꜱᴀɪᴅ.
-✦⋆⋇──────────────────⋇⋆✦
-ᴄʟɪᴄᴋ ᴏɴ /help ᴛᴏ ʟᴇᴀʀɴ ᴍᴏʀᴇ!
+ ⍣  𝖲𝖺𝖿𝖾𝗌𝗍 𝖦𝗋𝗈𝗎𝗉 𝖬𝖺𝗇𝖺𝗀𝖾𝗆𝖾𝗇𝗍 𝖡𝗈𝗍
+ ⍣  𝖠𝗇𝗂𝗆𝖾 𝖲𝗍𝗋𝖾𝖺𝗆𝗂𝗇𝗀 𝖲𝗒𝗌𝗍𝖾𝗆
+ ⍣  𝖬𝗎𝗌𝗂𝖼 𝖲𝗍𝗋𝖾𝖺𝗆𝗂𝗇𝗀 𝖲𝗒𝗌𝗍𝖾𝗆
+ ⍣  𝖭𝗈 𝖠𝖽𝗌 𝖣𝗎𝗋𝗂𝗇𝗀 𝖲𝗍𝗋𝖾𝖺𝗆𝗂𝗇𝗀
+
+➖         ‎ ᵖʸ ³·¹⁰         ➖  
 """
 
 buttons = [
         [
         InlineKeyboardButton(
-            text="⚓ Sᴜᴍᴍᴏɴ Mᴇ ⚓",
+            text="⚓ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⚓",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         ),
     ],
     [
-        InlineKeyboardButton(text="🫧 Dᴇᴠᴇʟᴏᴩᴇʀ", url=f"tg://user?id={OWNER_ID}"),
-        InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇs ♻️", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="˹Dᴇᴠᴇʟᴏᴩᴇʀ˼", url=f"tg://user?id={OWNER_ID}"),
+        InlineKeyboardButton(text="˹Uᴘᴅᴀᴛᴇs˼", url=f"https://t.me/{SUPPORT_CHAT}"),
     ],
     [
-        InlineKeyboardButton(text="🍁 Hᴇʟᴩ & Cᴏᴍᴍᴀɴᴅs 🍁", callback_data="help_back"),
+        InlineKeyboardButton(text="˹Hᴇʟᴩ Mᴇɴᴜ˼", callback_data="help_back"),
     ],
 ]
 
@@ -210,17 +210,7 @@ def start(update: Update, context: CallbackContext):
             )
             
             time.sleep(0.1)
-            lol.edit_text("💥")
-            time.sleep(0.2)
-            lol.edit_text("⚡")
-            time.sleep(0.2)
-            lol.edit_text("ꜱᴛᴀʀᴛɪɴɢ.")
-            time.sleep(0.2)
-            lol.edit_text("ꜱᴛᴀʀᴛɪɴɢ..")
-            time.sleep(0.2)
-            lol.edit_text("ꜱᴛᴀʀᴛɪɴɢ...")
-            time.sleep(0.2)
-            lol.delete()
+            lol.edit_text("ωαιт вαву")
             
             update.effective_message.reply_text(PM_START_TEXT.format(escape_markdown(first_name), BOT_NAME),
                 reply_markup=InlineKeyboardMarkup(buttons),
